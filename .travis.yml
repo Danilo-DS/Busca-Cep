@@ -4,3 +4,5 @@ deploy:
  api-key:
   secute: $HEROKU_API_KEY
  app: buscacepds
+before_install:
+- chmod +x mvnw
