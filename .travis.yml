@@ -1,6 +1,6 @@
 language: java
 jdk:
- - oraclejdk1.8
+ jdk8
 deploy:
  provider: heroku
  api-key:
