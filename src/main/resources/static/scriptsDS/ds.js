@@ -27,13 +27,13 @@ function alertaUser(msg){
 	$('#error').text(msg);			
 	//$(document).ready(function () {
 		window.setTimeout(function() {
-		    $('#alerta').fadeTo(2000, 0).slideUp(1700, function(){
+		    $('#alerta').fadeTo(1100, 0).slideUp(1100, function(){
 		    	$(this).hide();
 		    });
-		}, 2100);
+		}, 1100);
 		setTimeout(function (){
 			window.location.reload();
-		}, 5300)
+		}, 3300)
 		
 	//});
 }
